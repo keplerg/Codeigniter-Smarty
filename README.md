@@ -1,4 +1,5 @@
-# CI-Smarty
+# Codeigniter-Smarty
+
 # Integrate Smarty template engine into CodeIgniter
 
 If you are not familiar with CodeIgniter, it is a lightweight Model-View-Controller (MVC) framework written in PHP. It is an open source project created by EllisLabs. CodeIgniter has a templating system built in but, the last time I looked at it, it does not have many features. It also implements the templating by filtering the page using preg_match() and string replacement. For web sites with low traffic volumes and few variable replacements, this approach is fine. As the traffic volume picks up or with larger pages, this may impact the response time of the web site.
